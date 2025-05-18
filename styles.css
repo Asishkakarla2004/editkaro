@@ -1,113 +1,43 @@
-/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
 header {
-    background: linear-gradient(135deg, #4A00E0, #8E2DE2);
+    background: #333;
     color: #fff;
-    padding: 40px 20px;
+    padding: 20px;
     text-align: center;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 nav ul li {
-    margin: 10px 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #ffd700;
+    display: inline;
+    margin: 0 15px;
 }
 
 section {
-    padding: 40px 20px;
-    background-color: #fff;
-    margin: 20px auto;
-    max-width: 1000px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 8px;
-}
-
-h2 {
-    color: #4A00E0;
-    text-align: center;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-input, textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    width: 100%;
-}
-
-button {
-    padding: 10px;
-    background-color: #4A00E0;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #8E2DE2;
+    padding: 20px;
 }
 
 .portfolio-category {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
-.portfolio-grid {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.portfolio-grid img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.portfolio-item {
+    margin: 10px 0;
 }
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background: #333;
     color: #fff;
-    margin-top: 40px;
-    border-top: 3px solid #4A00E0;
 }
